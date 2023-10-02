@@ -9,7 +9,7 @@ import axios from 'axios';
 import './styles.css'
 import ScrollableChat from './ScrollableChat';
 import io from 'socket.io-client'
-const ENDPOINT = "http://localhost:3000";
+const ENDPOINT = "http://localhost:5000";
 var socket, selectedChatCompare;
 
 const SingleChat = ({fetchAgain, setFetchAgain}) => {
